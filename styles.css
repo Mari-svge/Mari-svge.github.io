@@ -5,17 +5,24 @@ body{
 h2 {
     color:white
 
-    text-align: center;
+    text-align: center
+    
 }
+
 
 .projects { 
     display:flex; 
     flex-wrap:wrap; 
+    
 }
-.project {
-width: 30%;
+.project img{
+width: 300px;
+height: 300px;
 margin: 10px;
 padding: 20px 10px;
 background: white;
 border-radius: 25%;
+display: block;
+border: 2px solid rgb(126, 14. 201);
+margin: auto;
 }
